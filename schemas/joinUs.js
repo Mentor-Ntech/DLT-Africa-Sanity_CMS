@@ -5,12 +5,12 @@ export default {
   title: 'Join',
   fields: [
     {
-      name: 'firstName',
+      name: 'firstname',
       type: 'string',
       title: 'First Name',
     },
     {
-      name: 'lastName',
+      name: 'lastname',
       type: 'string',
       title: 'Last Name',
     },
@@ -35,7 +35,7 @@ export default {
       title: 'Phone Number',
     },
     {
-      name: 'acaQua',
+      name: 'AcadQual',
       type: 'string',
       title: 'Academic Qualification',
     },
@@ -45,29 +45,29 @@ export default {
       title: 'Email Address',
     },
     {
-      name: 'codeExp',
+      name: 'exp',
       type: 'string',
       title: 'Coding Experience',
     },
     {
       name: 'html',
       type: 'string',
-      title: 'Do You Know',
+      title: 'HTML',
     },
     {
       name: 'css',
       type: 'string',
-      title: 'Do You Know',
+      title: 'CSS',
     },
     {
       name: 'javascript',
       type: 'string',
-      title: 'Do You Know',
+      title: 'Javascript',
     },
     {
-      name: 'others',
+      name: 'other',
       type: 'string',
-      title: 'Do You Know',
+      title: 'None Of The Above',
     },
   ],
 }
