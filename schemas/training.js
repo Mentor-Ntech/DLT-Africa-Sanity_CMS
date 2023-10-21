@@ -1,8 +1,7 @@
-// schemas/pet.js
 export default {
-  name: 'join',
+  name: 'training',
   type: 'document',
-  title: 'Join',
+  title: 'Join TrainingC3',
   fields: [
     {
       name: 'firstname',
@@ -35,7 +34,7 @@ export default {
       title: 'Phone Number',
     },
     {
-      name: 'AcadQual',
+      name: 'acadQual',
       type: 'string',
       title: 'Academic Qualification',
     },
@@ -65,7 +64,7 @@ export default {
       title: 'Javascript',
     },
     {
-      name: 'other',
+      name: 'noneOfTheAbove',
       type: 'string',
       title: 'None Of The Above',
     },
